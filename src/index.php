@@ -39,10 +39,12 @@ SOFTWARE.
     <meta name="theme-color" content="<?php echo $themeColor; ?>">
 	<title><?php echo $title; ?></title>
 	<link rel="stylesheet" type="text/css" href="main.php<?php echo '?' . rand(); ?>">
+	<link rel="stylesheet" type="text/css" href="//cdn.muzzammil.xyz/OctoCSS/octo.css<?php echo '?' . rand(); ?>">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="main.js<?php echo '?' . rand(); ?>"></script>
 </head>
 <body>
+	<a href="https://github.com/muhammadmuzzammil1998/JustAnAwesomeInc-Template" id="github" target="_blank"><github class="octo-right"><img src="//cdn.muzzammil.xyz/OctoCSS/github.svg"></github></a>
 	<div id="backLayer"></div>
 	<div class="spacer10"></div>
 	<center><span id="title"><?php echo $title; ?></span></center>

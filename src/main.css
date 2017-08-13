@@ -197,6 +197,9 @@ h2 a {
 #i:hover::before {
     content: "All content on this website is licensed under MIT. (C) 2017 Muhammad Muzzammil";
 }
+#github{
+    font-size: 0% !important;
+}
 @font-face {
     font-family: Aileron;
     src: url(Aileron.otf);
