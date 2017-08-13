@@ -1,0 +1,209 @@
+/*
+	MIT License
+
+	Copyright (c) 2017 Muhammad Muzzammil (http://muzzammil.xyz)
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.
+*/
+
+* {
+    margin: 0;
+}
+body {
+    background-image: url(bg.jpg);
+    font-size: 1000%;
+    font-family: Aileron;
+    color: white;
+    height: 100%;
+}
+h1 {
+    font-size: 35%;
+}
+h2 {
+    font-size: 30%;
+}
+h4 {
+    font-size: 25%;
+    color: grey;
+}
+p {
+    font-size: 35%;
+}
+a {
+    text-decoration: none !important;
+}
+.rand1 {
+    background-color: #9028bd;
+}
+.rand2 {
+    background-color: #9028fa;
+}
+.rand3 {
+    background-color: #902931;
+}
+.rand4 {
+    background-color: #902967;
+}
+.rand5 {
+    background-color: #90299e;
+}
+.card p,
+.founder p {
+    font-size: 18%;
+}
+h2 a {
+    color: white !important;
+}
+.spacer2 {
+    padding-top: 2%;
+}
+.spacer5 {
+    padding: 5%;
+}
+.spacer10 {
+    padding-top: 10%;
+}
+.active {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+.navbar {
+    width: 100% !important;
+    background-color: rgba(14, 11, 12, 0.9);
+    color: whitesmoke;
+    font-size: 25%;
+    text-align: center;
+}
+.navitem {
+    margin: 1%;
+    cursor: pointer;
+    padding-left: 1%;
+    padding-right: 1%;
+    transition: all .5s;
+}
+.navitem:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+.content {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.founder {
+    display: inline-grid;
+    width: 49%;
+}
+.button {
+    background-color: #4717F6;
+    color: white;
+    transition: all .5s;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 23%;
+    padding: 1%;
+    border: 0px solid transparent;
+}
+.button:hover {
+    box-shadow: 0 4px 10px 0 rgba(113, 113, 113, 0.5);
+    border: 5px solid #4717F6;
+    text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.7);
+}
+.card {
+    display: inline-grid;
+    color: white;
+    padding: 1%;
+    cursor: pointer;
+    transition: all .5s;
+    border: 5px solid transparent;
+    text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.7);
+    font-size: 60%;
+}
+.typed-cursor {
+    display: none;
+}
+.card:hover {
+    text-shadow: none;
+    border: 5px solid;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#title {
+    color: rgb(231, 223, 221);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5), 2px 2px 5px rgba(0, 0, 0, 0.5), 3px 3px 5px rgba(0, 0, 0, 0.5), 4px 4px 5px rgba(0, 0, 0, 0.5);
+    font-size: 90%;
+}
+#backLayer {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(14, 11, 12, 0.9);
+    position: fixed;
+    z-index: -999;
+}
+#about,
+#team,
+#work,
+#hire {
+    display: none;
+}
+#web {
+    width: 185px;
+}
+#floater {
+    font-size: 45%;
+    padding: 1%;
+    text-align: center;
+    background-color: #2b2b2b;
+}
+#i {
+    font-family: monospace;
+    border-radius: 50px;
+    border: 5px solid white;
+    cursor: pointer;
+    font-size: 25%;
+    width: 35px;
+    text-align: center;
+    right: 0;
+    margin-right: 1%;
+    bottom: 0;
+    margin-bottom: 1%;
+    transition: all .5s;
+    position: fixed;
+    color: white;
+}
+#i::before {
+    content: 'i';
+}
+#i:hover {
+    background-color: white;
+    color: black;
+    width: 75%;
+}
+#i:hover::before {
+    content: "All content on this website is licensed under MIT. (C) 2017 Muhammad Muzzammil";
+}
+@font-face {
+    font-family: Aileron;
+    src: url(Aileron.otf);
+}
+@supports not (display: inline-grid) {
+    .founder {
+        width: 100%;
+        display: block;
+    }
+}
