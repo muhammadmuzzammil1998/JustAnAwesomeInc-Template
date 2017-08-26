@@ -6,7 +6,7 @@ Just Kidding...
 # Just An Awesome Inc is,
 ## Simple - Clean - "Easy to setup" Website Template
 
-# [Demo](http://muzzammil.xyz/git/JAAI/)
+# [Demo](https://git.muzzammil.xyz/JAAI/)
 
 # How to setup
 ## Step 1: Gather information about your organization.
