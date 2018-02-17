@@ -1,16 +1,14 @@
-# JustAnAwesomeInc-Template
+# JustAnAwesomeInc-Template · [Demo](https://git.muzzammil.xyz/JAAI/)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel lectus condimentum, dignissim quam gravida, finibus leo. Sed vestibulum euismod quam, id vehicula neque convallis eu. Nunc sem sem, luctus vitae placerat eget, vehicula nec diam. Maecenas sem erat, commodo non faucibus ut, cursus non felis. Phasellus pharetra diam id faucibus elementum. Etiam ut venenatis nunc, eget lobortis lacus. Sed arcu lectus, posuere id sagittis scelerisque, volutpat ut justo. Praesent vulputate risus eget felis maximus, et pellentesque augue scelerisque. Sed quis porttitor nisi.
 
 Just Kidding...
 
-# Just An Awesome Inc is,
-## Simple - Clean - "Easy to setup" Website Template
+## Just An Awesome Inc is,
+### Simple - Clean - "Easy to setup" Website Template
 
-# [Demo](https://git.muzzammil.xyz/JAAI/)
-
-# How to setup
-## Step 1: Gather information about your organization.
-## Step 2: Edit the "index.php" file
+### How to setup
+### Step 1: Gather information about your organization.
+### Step 2: Edit the "index.php" file
 At the top of the file, you'll find something like this:
 ```php
 <?php 
@@ -22,9 +20,9 @@ At the top of the file, you'll find something like this:
  ?>
 ```
 Edit it to meet your requirement and you are good to go.
-## Step 3: Publish.
+### Step 3: Publish.
 
-# License
+## License
 MIT License
 
 Copyright (c) 2017 Muhammad Muzzammil (http://muzzammil.xyz)
